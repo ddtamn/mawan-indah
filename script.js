@@ -50,7 +50,7 @@ guestName.addEventListener("input", (e) => {
 copyButton.addEventListener("click", function () {
   if (targetValue) {
     navigator.clipboard.writeText(
-      `https://dayatfatmah.vercel.app/df/?to=${convertToSlug(targetValue)}`
+      `https://mawan-indah.vercel.app/mi/?to=${convertToSlug(targetValue)}`
     );
     copyButton.innerHTML = "BERHASIL!";
     setTimeout(() => {
